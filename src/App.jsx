@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="bg-slate-200 text-2xl text-green-400">
+    <div className="bg-very-dark-blue text-red text-2xl">
       Notifications Page
     </div>
   );
