@@ -11,7 +11,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Site URL: [Github Pages](ReplaceWithActualLiveUrl)
+- Live Site URL: [Github Pages](https://pkthunder87.github.io/notifications-page/)
 
 ### Built with
 
