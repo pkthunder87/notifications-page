@@ -13,9 +13,11 @@ function NotificationItem({
         <img className="h-12 w-12" src={`${profilePic}`} alt="Profile image" />
       </div>
       <div className=" -ml-1 mt-2 self-start text-wrap text-base">
-        <span className="font-extrabold">{`${profileName}`}</span>
+        <span className="font-extrabold hover:cursor-pointer hover:text-blue">{`${profileName}`}</span>
         <span className="ml-2 text-dark-grayish-blue">{`${reaction}`}</span>
-        <span className={`ml-2 font-extrabold text-dark-grayish-blue ${link}`}>
+        <span
+          className={`ml-2 font-extrabold text-dark-grayish-blue ${link} hover:cursor-pointer hover:text-blue`}
+        >
           {`${headline}`}
         </span>
         <span className="">
