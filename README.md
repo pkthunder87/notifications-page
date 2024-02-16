@@ -19,6 +19,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 - Flexbox
 - Grid
 - React
+- Vite
 
 ## Author
 
