@@ -34,6 +34,7 @@ function NotificationsList() {
         reaction="sent you a private message"
         timestamp="5 days ago"
         headline=""
+        activeMessage={activeMessage}
       />
       <NotificationItem
         profilePic="./avatar-kimberly-smith.webp"
@@ -48,7 +49,7 @@ function NotificationsList() {
         reaction="reacted to your recent post"
         timestamp="2 weeks ago"
         headline="5 end-game strategies to increase your win rate"
-        marginTop="mt-6"
+        marginTop="-mt-6"
       />
       <NotificationItem
         profilePic="./avatar-anna-kim.webp"
