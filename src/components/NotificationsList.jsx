@@ -35,6 +35,7 @@ function NotificationsList() {
         timestamp="5 days ago"
         headline=""
         activeMessage={activeMessage}
+        unread={false}
       />
       <NotificationItem
         profilePic="./avatar-kimberly-smith.webp"
@@ -42,6 +43,7 @@ function NotificationsList() {
         reaction="commented on your picture"
         timestamp="1 week ago"
         headline=""
+        unread={false}
       />
       <NotificationItem
         profilePic="./avatar-nathan-peterson.webp"
@@ -50,6 +52,7 @@ function NotificationsList() {
         timestamp="2 weeks ago"
         headline="5 end-game strategies to increase your win rate"
         marginTop="-mt-6"
+        unread={false}
       />
       <NotificationItem
         profilePic="./avatar-anna-kim.webp"
@@ -58,6 +61,7 @@ function NotificationsList() {
         timestamp="2 weeks ago"
         headline="Chess Club"
         link="cursor-pointer text-blue"
+        unread={false}
       />
     </div>
   );
