@@ -20,6 +20,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 - Grid
 - React
 - Vite
+- Tailwind
 
 ## Author
 
