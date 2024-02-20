@@ -44,6 +44,9 @@ function NotificationsList() {
         timestamp="1 week ago"
         headline=""
         unread={false}
+        picture="./image-chess.webp"
+        marginTop="-mt-12"
+        adjustPicture={true}
       />
       <NotificationItem
         profilePic="./avatar-nathan-peterson.webp"
@@ -53,6 +56,7 @@ function NotificationsList() {
         headline="5 end-game strategies to increase your win rate"
         marginTop="-mt-6"
         unread={false}
+        adjustPicture={true}
       />
       <NotificationItem
         profilePic="./avatar-anna-kim.webp"

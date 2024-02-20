@@ -8,22 +8,32 @@ function NotificationItem({
   link = '',
   activeMessage = '',
   unread = true,
+  picture = false,
+  adjustPicture = false,
 }) {
-  const unreadHighlight = unread ? 'rounded-lg bg-very-light-grayish-blue' : '';
+  const unreadHighlight = unread
+    ? 'rounded-lg bg-very-light-grayish-blue '
+    : '';
+
+  const hasPicture = picture ? '' : 'col-span-2';
+
+  const stylePicture = adjustPicture ? 'self-baseline mt-2' : '';
 
   return (
     <div>
       <div
-        className={`grid  w-full grid-cols-[10%_90%] grid-rows-2 items-center gap-x-4 p-2 ${unreadHighlight}`}
+        className={`grid  w-full grid-cols-[10%_78%_12%] grid-rows-2 items-center gap-x-4 p-2 ${unreadHighlight}`}
       >
-        <div className="row-span-2 ml-2">
+        <div className={`row-span-2 ml-2 ${stylePicture}`}>
           <img
             className="h-12 w-12"
             src={`${profilePic}`}
             alt="Profile image"
           />
         </div>
-        <div className=" -ml-1 mt-2 self-start text-wrap text-base">
+        <div
+          className={`-ml-1 mt-2 self-start text-wrap text-base ${hasPicture}`}
+        >
           <span className="font-extrabold hover:cursor-pointer hover:text-blue">{`${profileName}`}</span>
           <span className="ml-2 text-dark-grayish-blue">{`${reaction}`}</span>
           {headline ? (
@@ -44,6 +54,12 @@ function NotificationItem({
             false
           )}
         </div>
+        {picture ? (
+          <img className="h-12 w-12 " src={`${picture}`} alt="Profile image" />
+        ) : (
+          false
+        )}
+
         <div
           className={`-ml-1  ${marginTop} text-base text-dark-grayish-blue`}
         >{`${timestamp}`}</div>
