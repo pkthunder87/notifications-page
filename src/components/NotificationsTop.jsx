@@ -7,7 +7,7 @@ function NotificationsTop() {
           3
         </span>
       </div>
-      <div className="text-extrabold flex text-lg text-dark-grayish-blue">
+      <div className="text-extrabold flex text-lg text-dark-grayish-blue hover:cursor-pointer hover:text-blue">
         Mark all as read
       </div>
     </div>

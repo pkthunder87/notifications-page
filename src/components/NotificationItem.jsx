@@ -50,7 +50,7 @@ function NotificationItem({
       </div>
       {activeMessage ? (
         <div
-          className={`ml-[5.4rem] mt-2 rounded-md  border-[1px] border-solid p-4 text-[1.08rem] leading-6 text-dark-grayish-blue`}
+          className={`ml-[5.4rem] mt-2 rounded-md  border-[1px] border-solid p-4 text-[1.08rem] leading-6 text-dark-grayish-blue hover:cursor-pointer hover:bg-light-grayish-blue-1`}
         >{`${activeMessage}`}</div>
       ) : (
         false
