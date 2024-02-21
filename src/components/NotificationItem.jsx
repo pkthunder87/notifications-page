@@ -55,7 +55,11 @@ function NotificationItem({
           )}
         </div>
         {picture ? (
-          <img className="h-12 w-12 " src={`${picture}`} alt="Profile image" />
+          <img
+            className="h-12 w-12 hover:cursor-pointer"
+            src={`${picture}`}
+            alt="Profile image"
+          />
         ) : (
           false
         )}
