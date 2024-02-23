@@ -18,7 +18,6 @@ function NotificationsList() {
         profileName="Angela Gray"
         reaction="followed you"
         timestamp="5m ago"
-        headline=""
       />
       <NotificationItem
         profilePic="./avatar-jacob-thompson.webp"
@@ -33,7 +32,6 @@ function NotificationsList() {
         profileName="Rizky Hasanuddin"
         reaction="sent you a private message"
         timestamp="5 days ago"
-        headline=""
         activeMessage={activeMessage}
         unread={false}
       />
@@ -42,7 +40,6 @@ function NotificationsList() {
         profileName="Kimberly Smith"
         reaction="commented on your picture"
         timestamp="1 week ago"
-        headline=""
         unread={false}
         picture="./image-chess.webp"
         marginTop="-mt-12"
