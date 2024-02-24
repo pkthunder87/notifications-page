@@ -13,7 +13,7 @@ function NotificationItem({
 }) {
   const unreadHighlight = unread
     ? 'rounded-lg bg-very-light-grayish-blue '
-    : '';
+    : '-mb-8 sm:-mb-6';
 
   const hasPicture = picture ? '' : 'col-span-2';
 
@@ -70,7 +70,7 @@ function NotificationItem({
       </div>
       {activeMessage ? (
         <div
-          className={`ml-[5.4rem] mt-2 rounded-md  border-[1px] border-solid p-4 text-[1.08rem] leading-6 text-dark-grayish-blue hover:cursor-pointer hover:bg-light-grayish-blue-1`}
+          className={`-mt-4 ml-12 rounded-md  border-[1px] border-solid p-4 text-[1.08rem] leading-6 text-dark-grayish-blue hover:cursor-pointer hover:bg-light-grayish-blue-1 sm:ml-[5.4rem] sm:mt-0`}
         >{`${activeMessage}`}</div>
       ) : (
         false

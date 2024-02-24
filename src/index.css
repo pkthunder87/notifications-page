@@ -8,6 +8,6 @@
   }
 
   body {
-    @apply bg-very-light-grayish-blue flex h-[100dvh] w-[100dvw] items-center justify-center text-[1.6rem] antialiased md:h-[100dvh] md:overflow-hidden md:text-[1.6rem];
+    @apply flex h-[100dvh] w-[100dvw] items-center justify-center bg-very-light-grayish-blue text-[1.6rem] antialiased md:h-[100dvh] md:overflow-hidden md:text-[1.6rem];
   }
 }
