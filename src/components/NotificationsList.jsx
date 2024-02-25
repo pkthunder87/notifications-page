@@ -12,6 +12,7 @@ function NotificationsList() {
         reaction="reacted to your recent post"
         timestamp="1m ago"
         headline="My first tournament today!"
+        adjustPicture={true}
       />
       <NotificationItem
         profilePic="./avatar-angela-gray.webp"
@@ -26,6 +27,7 @@ function NotificationsList() {
         timestamp="1 day ago"
         headline="Chess Club"
         link="cursor-pointer text-blue"
+        adjustPicture={true}
       />
       <NotificationItem
         profilePic="./avatar-rizky-hasanuddin.webp"
@@ -34,6 +36,7 @@ function NotificationsList() {
         timestamp="5 days ago"
         activeMessage={activeMessage}
         unread={false}
+        adjustPicture={true}
       />
       <NotificationItem
         profilePic="./avatar-kimberly-smith.webp"

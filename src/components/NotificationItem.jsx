@@ -22,7 +22,9 @@ function NotificationItem({
   return (
     <div>
       <div
-        className={`grid  w-full grid-cols-[10%_78%_12%] grid-rows-2 items-center gap-x-4 p-2 ${unreadHighlight}`}
+        className={`grid  w-full 
+        grid-cols-[16%_70%_14%]
+        grid-rows-2 items-center gap-x-4 p-2 sm:grid-cols-[10%_78%_12%] ${unreadHighlight}`}
       >
         <div className={`row-span-2 ml-2 ${stylePicture}`}>
           <img
@@ -70,7 +72,7 @@ function NotificationItem({
       </div>
       {activeMessage ? (
         <div
-          className={`-mt-4 ml-12 rounded-md  border-[1px] border-solid p-4 text-[1.08rem] leading-6 text-dark-grayish-blue hover:cursor-pointer hover:bg-light-grayish-blue-1 sm:ml-[5.4rem] sm:mt-0`}
+          className={`ml-12 mt-4 rounded-md  border-[1px] border-solid p-4 text-[1.08rem] leading-6 text-dark-grayish-blue hover:cursor-pointer hover:bg-light-grayish-blue-1 sm:ml-[5.4rem]`}
         >{`${activeMessage}`}</div>
       ) : (
         false
