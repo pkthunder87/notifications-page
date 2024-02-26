@@ -13,6 +13,7 @@ function NotificationsList() {
         timestamp="1m ago"
         headline="My first tournament today!"
         adjustPicture={true}
+        marginTop="sm:mt-0 -mt-8"
       />
       <NotificationItem
         profilePic="./avatar-angela-gray.webp"
@@ -28,6 +29,7 @@ function NotificationsList() {
         headline="Chess Club"
         link="cursor-pointer text-blue"
         adjustPicture={true}
+        marginTop="sm:mt-0 -mt-8"
       />
       <NotificationItem
         profilePic="./avatar-rizky-hasanuddin.webp"
@@ -37,6 +39,7 @@ function NotificationsList() {
         activeMessage={activeMessage}
         unread={false}
         adjustPicture={true}
+        marginTop="-mt-8 sm:-mt-2"
       />
       <NotificationItem
         profilePic="./avatar-kimberly-smith.webp"
@@ -45,7 +48,7 @@ function NotificationsList() {
         timestamp="1 week ago"
         unread={false}
         picture="./image-chess.webp"
-        marginTop="-mt-12"
+        marginTop="sm:-mt-12 -mt-8"
         adjustPicture={true}
       />
       <NotificationItem
@@ -54,7 +57,7 @@ function NotificationsList() {
         reaction="reacted to your recent post"
         timestamp="2 weeks ago"
         headline="5 end-game strategies to increase your win rate"
-        marginTop="-mt-6"
+        marginTop="sm:-mt-6 -mt-14"
         unread={false}
         adjustPicture={true}
       />
