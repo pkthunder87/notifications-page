@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply text-[90%] sm:text-[66.7%];
+    @apply text-[90%] sm:text-[100%];
   }
 
   body {
