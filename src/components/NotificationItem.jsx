@@ -50,7 +50,7 @@ function NotificationItem({
 
           {unread ? (
             <span className="">
-              <div className="ml-[1px] inline-block h-3 w-3 scale-50 rounded-full bg-red"></div>
+              <div className="ml-[1px] inline-block h-4 w-4 scale-50 rounded-full bg-red"></div>
             </span>
           ) : (
             false
@@ -58,7 +58,7 @@ function NotificationItem({
         </div>
         {picture ? (
           <img
-            className="-ml-[1.3rem] h-12 w-12 hover:cursor-pointer sm:ml-0"
+            className=" -ml-[1.3rem] h-11 w-11 hover:cursor-pointer sm:-ml-2"
             src={`${picture}`}
             alt="Profile image"
           />
@@ -67,12 +67,12 @@ function NotificationItem({
         )}
 
         <div
-          className={`-ml-1  ${marginTop} text-base text-dark-grayish-blue`}
+          className={`-ml-1  ${marginTop} text-base text-grayish-blue`}
         >{`${timestamp}`}</div>
       </div>
       {activeMessage ? (
         <div
-          className={`mb-4 ml-20 mt-0 rounded-md border-[1px] border-solid  p-4 text-[1.08rem] leading-6 text-dark-grayish-blue hover:cursor-pointer hover:bg-light-grayish-blue-1 sm:mb-0 sm:ml-[5.4rem] sm:mt-4`}
+          className={`mb-4 ml-20 mt-0 rounded-md border-[1px] border-solid  p-4 text-[1.08rem] leading-6 text-dark-grayish-blue hover:cursor-pointer hover:bg-light-grayish-blue-1 sm:mb-5 sm:ml-[5.4rem] sm:mr-4 sm:mt-4 sm:text-[1rem] sm:leading-5`}
         >{`${activeMessage}`}</div>
       ) : (
         false
