@@ -4,7 +4,6 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ## Table of contents
 
-- [Overview](#overview)
 - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
